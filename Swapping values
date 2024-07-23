@@ -1,0 +1,41 @@
+#SWAPPING VALUES
+print("Actual values are a=20 and b=10")
+#swapping values can be done in 3 methods
+#method 1: "Tuple assignment"
+print("METHOD 1:")
+a=20
+b=10
+a,b=b,a
+print("a =",a)
+print("b =",b)
+#method 2:"Using Temporary variable"
+print("METHOD 2:")
+a=20
+b=10
+temp=a
+a=b
+b=temp
+print("a =",a)
+print("b =",b)
+#method 3:"Using Arithmetic Operations"
+print("METHOD 3:")
+a=20
+b=10
+a=a+b
+b=a-b
+a=a-b
+print("a =",a)
+print("b =",b)
+_____________OUTPUT_______________
+Actual values are a=20 and b=10
+METHOD 1:
+a = 10
+b = 20
+METHOD 2:
+a = 10
+b = 20
+METHOD 3:
+a = 10
+b = 20
+
+[Program finished]
