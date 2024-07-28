@@ -1,0 +1,23 @@
+'''The floor division operator ( // ) is primarily used when you require an integer or need to return the smallest integer less than or equal to the input.'''
+
+
+
+'''If the operands are both integers, then the output will an integer. If either operand is a float then the output will be a float'''
+
+
+a=7#integer 
+b=3#integer
+a//=b      #a=a//b
+print(a)#as both operands are integers, output will be an integer
+
+
+c=12.5#float(decimal)
+d=2#integer
+c//=d       #c=c//d
+print(c)#As one of the operand is of float datatype, it gives output of float datatype
+
+'''_____________OUTPUT_____________
+2
+6.0
+
+[Program finished]'''
