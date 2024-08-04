@@ -1,0 +1,10 @@
+# Assignment Operator
+# = is called as assignment operator
+# This is used for writing Assignment statements
+a=10
+b=20 # These are called as assignment statements
+c=a+b
+print(c)
+'''------------------------OUTPUT---------------------------------
+30
+'''
