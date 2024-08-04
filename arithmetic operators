@@ -1,0 +1,23 @@
+# Arithmetic operators
+# +,-,*,/,//,%,** comes under arithmetic operators
+a=10
+b=2
+print("Addition is:",a+b)
+print("Subtraction is:",a-b)
+print("Multiplication is:",a*b)
+print("Division is:",a/b)
+print("Modulus is:",a%b)
+print("Exponent is:",a**b)
+print("Floor division is:",a//b)
+# / returns quotient value
+# // returns quotient value by removing all the floating points
+# % returns remainder of the division
+'''----------------------------------OUTPUT------------------------
+Addition is: 12
+Subtraction is: 8
+Multiplication is: 20
+Division is: 5.0
+Modulus is: 0
+Exponent is: 100
+Floor division is: 5
+'''
