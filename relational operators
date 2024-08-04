@@ -1,0 +1,19 @@
+# Relational or comparison operators
+# < , <= , > , >= , == , != comes under relational/Comparison operators
+# They return either true or false based on the condition
+a=3
+b=2
+print(a<b)
+print(a<=b)
+print(a>b)
+print(a>=b)
+print(a==b)
+print(a!=b)
+'''---------------------------OUTPUT-------------------------------
+False
+False
+True
+True
+False
+True
+'''
