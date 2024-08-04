@@ -1,0 +1,24 @@
+# Logical operators
+# and, or, not comes under logical operators
+# These are used to compare two conditions and return either True or False.
+# and returns True only if both the conditions are True otherwise it returns false
+a=10
+b=20
+print(a>b and b>a)
+# or returns True even both conditions are True or one of the condition is True
+print(a>b or b>a)
+# not returns true if the result is false
+# not returns false if the result is True
+c= a>b and b>a
+print(not c)
+# The returned value can be stored in a variable also
+d= not c
+print(d)
+print(not(a>b and b>a))
+'''-------------------------OUTPUT---------------------------------
+False
+True
+True
+True
+True
+'''
