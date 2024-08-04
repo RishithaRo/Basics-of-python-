@@ -1,0 +1,29 @@
+# Augumented arithmetic operators
+# += , -= , *= , /= , //= , **= ,%=
+# a+=b is equivalent to a=a+b
+# Here it adds b to a and then assigns the result to a
+a=5
+b=2
+a+=b
+print("value of a using +=",a)
+a-=2
+print("value of a using -=",a)
+a*=2
+print("value of a using *=",a)
+a/=2
+print("value of a using /=",a)
+a//=2
+print("value of a using //=",a)
+a**=3
+print("value of a using **=",a)
+a%=3
+print("value of a using %=",a)
+'''------------------------------------OUTPUT-----------------------------------
+value of a using += 7
+value of a using -= 5
+value of a using *= 10
+value of a using /= 5.0
+value of a using //= 2.0
+value of a using **= 8.0
+value of a using %= 2.0
+'''
